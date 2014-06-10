@@ -1,0 +1,204 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>wolyshaw14-06-06</title>
+</head>
+<style>
+html,body,header,article,footer{padding:0px;margin:0px;font-family:"Open Sans","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei";font-size:14px;}
+li{list-style: none;}
+.cf{clear:both;}
+header{width:100%;background:#0099cc;color:#fff;height:50px;line-height:50px;text-align:center;}
+article{max-width:1220px;margin:auto;}
+footer{width:100%;background:#282828;}
+.left-menu-big{padding-left:30px;padding-top:15px;}
+.left-menu-small{padding-left:45px;padding-top: 5px;}
+#article-content h2,h3,h4{color:#666;}
+#article-left{float:left;width:150px;}
+#article-post{float:left;}
+#article-right{width:260px;float:right;}
+#breadcrumb{margin:15px 0 5px 15px; text-transform:capitalize;}
+#article-post-img{max-width: 810px;}
+.post-big-img{float: left;}
+.post-small-img{float:left;}
+.post-big-img img{max-width: 400px;height: auto;padding:0px 3px;}
+.post-small-img img{max-width: 200px;height: auto;margin:1px;}
+#article-post{max-width: 810px;}
+#tag{margin:10px;}
+#tag span{border:1px solid #ccc;margin-right:5px;padding:3px 8px;border-radius:5px;box-shadow: 1px 1px 2px #888888;}
+#article-notice{border: 1px solid #0099cc;padding:10px;text-align:center;margin-top:10px;}
+.related-post{padding-right:2px;float:left;}
+.related-post img{width:200px;height:auto;}
+.right-show{margin-left: 10px;}
+.right-show img{width:250px;height:auto;}
+#footer-main{max-width:1220px;color:#fff;margin:auto;height:150px;text-align:150px;}
+.current{opacity:0.6;filter:alpha(opacity=60);}
+.block-none a{color:#fff;}
+
+.bolck-none-title{background:#0099cc;height:30px;width:100%;line-height:30px;text-align:center;}
+.block-none-content{display:none;}
+.share{margin:30px 11px;background-image: url(img/share_32_32.png);}
+.share-weibo{width: 32px;height:32px;background-position: -0px -32px;}
+.share-weibo a{}
+</style>
+<script>
+window.onload=function(){
+    var postImg=document.getElementById('article-post-img');
+    var postImgSmall=postImg.getElementsByTagName('img');
+        for(var i=0;i<postImgSmall.length;i++)
+        {
+            postImgSmall[i].onmouseover=function(){
+                this.className = "current"
+            };
+            postImgSmall[i].onmouseout=function(){
+                this.className = ""
+            };
+        }
+};
+</script>
+<body>
+    <header id="header">
+        this is header
+    </header>
+    <article>
+        <div id="article-content">
+            <div id="article-left">
+                <div class="left-menu">
+                    <a href="javascript:;"><div class="left-menu-big">手机</div></a>
+                    <a href="javascript:;"><div class="left-menu-small">手机资讯</div></a>
+                    <a href="javascript:;"><div class="left-menu-big">手机</div></a>
+                    <a href="javascript:;"><div class="left-menu-small">手机资讯</div></a>
+                    <a href="javascript:;"><div class="left-menu-big">手机</div></a>
+                    <a href="javascript:;"><div class="left-menu-small">手机资讯</div></a>
+                    <a href="javascript:;"><div class="left-menu-big">手机</div></a>
+                    <a href="javascript:;"><div class="left-menu-small">手机资讯</div></a>
+                </div>
+                <div class="share">
+                    <a href="javascript:;"><span class="share-weibo">1</span></a>
+                    <span class="share-qq"><a href="javascript:;"></a></span>
+                    <span class="share-qqweibo"><a href="javascript:;"></a></span>
+                    <span class="share-weixin"><a href="javascript:;"></a></span>
+                </div>
+            </div>
+            <div id="article-post">
+                <div id="breadcrumb">home-post</div>
+                <div id="article-post-title"><h2>小米平板1499元7.9吋</h2></div>
+                <div id="article-post-meta">wolyshaw</div>
+                <div id="article-post-content">
+                    <div id="article-post-img">
+                        <div class="post-big-img"><img src="img/post-big-img.png" /></div>
+                        <div class="post-small-img"><img src="img/post-big-img.png" /><img src="img/post-big-img.png" /></div>
+                        <div class="post-small-img"><img src="img/post-big-img.png" /><img src="img/post-big-img.png" /></div>
+                    </div>
+                    <hr />
+                    <h3>基本参数</h3>
+                    小米平板屏幕为 7.9 英寸 像素分辨率：2048 x 1536 像素密度：326 ppi
+                    2GB RAM 分别有16GB（1499元）和64GB（1699元）。并且还支持最高128GB的Micro SD（TF）卡扩展存储。
+                    摄像头后置为索尼800万像素，前置500万像素。
+                    电池容量：6700mAh
+                    MIUI友好界面
+                    显示屏
+                    屏幕材质IPS全贴合超清视网膜屏
+                    屏幕尺寸7.9 英寸 (对角线)屏幕
+                    分辨率2048 x 1536 像素分辨率，326 ppi
+                    处理器
+                    CPU型号NVIDIA Tegra K1 四核2.2GHz ARM Cortex-A15 处理器
+                    GPU型号192 颗 NVIDIA CUDA® 核心的 NVIDIA Kepler™架构 GPU
+                    容量
+                    内存2GB LPDDR3
+                    高速闪存可选16GB与64GB。支持Micro SD（TF）卡扩展存储，最高支持128GB扩展存储。
+                    网络支持
+                    WLANac双频 2X2双天线，支持802.11/b/g/n/ac协议
+                    数据Bluetooth 4.0 WiFi Direct
+                    拍照与摄像
+                    后置相机索尼背照式800万像素相机
+                    前置相机500万像素
+                    光圈F2.0
+                    视频拍摄支持1080p （1920x1080）高清摄像
+                    电池
+                    容量6700mAh 锂离子聚合物
+                    感应器
+                    陀螺仪支持
+                    光线感应器支持
+                    距离感应支持
+                    电子罗盘支持
+                    多媒体播放
+                    音乐播放支持mp3、aac、aac+、eaac+、amr、wb-amr、midi、ogg等格式
+                    视频播放支持1080p （1920x1080，30帧/秒）视频播放
+                    支持mpeg4、h.263、h.264
+                    图片播放支持JPEG、PNG、GIF、BMP等格式
+                    Flash播放支持
+                    <div class="block-none">
+                        <a href="javascript:;"><div class="bolck-none-title">点击查看详细参数</div></a>
+                        <div class="block-none-content">
+                            电池容量：6700mAh
+                            MIUI友好界面
+                            显示屏
+                            屏幕材质IPS全贴合超清视网膜屏
+                            屏幕尺寸7.9 英寸 (对角线)屏幕
+                            分辨率2048 x 1536 像素分辨率，326 ppi
+                            处理器
+                            CPU型号NVIDIA Tegra K1 四核2.2GHz ARM Cortex-A15 处理器
+                            GPU型号192 颗 NVIDIA CUDA® 核心的 NVIDIA Kepler™架构 GPU
+                            容量
+                            内存2GB LPDDR3
+                            高速闪存可选16GB与64GB。支持Micro SD（TF）卡扩展存储，最高支持128GB扩展存储。
+                            网络支持
+                            WLANac双频 2X2双天线，支持802.11/b/g/n/ac协议
+                            数据Bluetooth 4.0 WiFi Direct
+                            拍照与摄像
+                            后置相机索尼背照式800万像素相机
+                            前置相机500万像素
+                            光圈F2.0
+                            视频拍摄支持1080p （1920x1080）高清摄像
+                            电池
+                            容量6700mAh 锂离子聚合物
+                            感应器
+                            陀螺仪支持
+                            光线感应器支持
+                            距离感应支持
+                            电子罗盘支持
+                            多媒体播放
+                            音乐播放支持mp3、aac、aac+、eaac+、amr、wb-amr、midi、ogg等格式
+                            视频播放支持1080p （1920x1080，30帧/秒）视频播放
+                            支持mpeg4、h.263、h.264
+                            图片播放支持JPEG、PNG、GIF、BMP等格式
+                            Flash播放支持
+                        </div>
+                    </div>
+                    </div>
+                    <div id="tag">本文标签：<span>小米</span><span>平板</span></div>
+                    <div id="article-notice">还有疑问？在下面评论就可以了哦。很多问题？<a href="#"><span class="discussion">到讨论区吧！</span></a></div>
+                    <div class="related">
+                        <h4>相关文章：</h4>
+                        <div class="related-post"><img src="img/post-big-img.png" /></div>
+                        <div class="related-post"><img src="img/post-big-img.png" /></div>
+                        <div class="related-post"><img src="img/post-big-img.png" /></div>
+                        <div class="related-post"><img src="img/post-big-img.png" /></div>
+                        <div class="related-post"><img src="img/post-big-img.png" /></div>
+                        <div class="related-post"><img src="img/post-big-img.png" /></div>
+                        <div class="related-post"><img src="img/post-big-img.png" /></div>
+                        <div class="related-post"><img src="img/post-big-img.png" /></div>
+                    </div>
+                    <div class="cf"></div>
+            </div>
+            <div id="article-right">
+                <div class="right-show"><img src="img/post-big-img.png" /></div>
+            </div>
+            <div class="cf"></div>
+        </div>
+    </article>
+    <div class="cf"></div>
+    <footer id="footer">
+        <div id="footer-main">
+            this is footer
+        </div>
+    </footer>
+    <script src="jquery-1.11.1.min.js"></script>
+    <script>
+        $('.block-none a').click(function(){
+            $('.block-none-content').fadeToggle('fast');
+        });
+    </script>
+</body>
+</html>
